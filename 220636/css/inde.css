@@ -1,0 +1,85 @@
+
+:root {
+    --varnav-width: 200px;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/back.jpeg'); /* Remplacez 'votre_image.jpg' par le nom de votre image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: var(--varnav-width); 
+    background-color: #12222c;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    height: 100vh;
+}
+
+.links {
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+a:hover {
+    background-color: #fff;
+    color: #3498db;
+}
+
+.content {
+    flex-grow: 1;
+    max-width: 600px;
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    background-color: #03263e;
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.category {
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    display: inline-block;
+    background-color: blue;
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.produit {
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    display: inline-block;
+    background-color: #080049;
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+  
+}

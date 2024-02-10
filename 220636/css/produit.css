@@ -1,0 +1,101 @@
+
+:root {
+    --varnav-width: 200px; /* Définir la largeur de la barre de navigation */
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/back.jpeg'); /* Remplacez 'votre_image.jpg' par le nom de votre image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: var(--varnav-width); /* Utilisation de la variable pour la largeur de la barre de navigation */
+    background-color: #12222c;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    height: 100vh; /* 100% de la hauteur de la vue (viewport) */
+}
+
+.links {
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+a:hover {
+    background-color: #fff;
+    color: #03263e;
+}
+
+table {
+    width: 100%;
+    margin: 50px auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #1D2228;
+    color: #fff;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: none;
+    background-color: transparent;
+}
+
+button {
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3498db;
+    color: #fff;
+}
+
+button[name^="sup"] {
+    background-color: red; /* Red color for "Supprimer" */
+    color: #fff;
+}
+
+button[name^="mod"] {
+    background-color: blue; /* Blue color for "Modifier" */
+    color: #fff;
+}
+tr.entete {
+    background-color: blue/* ou la couleur de votre choix */
+}

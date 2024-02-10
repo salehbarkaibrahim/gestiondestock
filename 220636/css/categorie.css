@@ -1,0 +1,41 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/back.jpeg'); /* Remplacez 'votre_image.jpg' par le nom de votre image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.category {
+    background-color: #3498db;
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+h1 {
+    background-color: #3498db;
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
